@@ -12,6 +12,10 @@ import { SpecialEventsComponent } from './special-events/special-events.componen
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ProfileComponent } from './profile/profile.component';
+import { SidebarComponent } from './sb2_admin/layouts/sidebar/sidebar.component';
+import { Sb2TopbarComponent } from './sb2_admin/layouts/sb2-topbar/sb2-topbar.component';
+import { Sb2FooterComponent } from './sb2_admin/layouts/sb2-footer/sb2-footer.component';
+import { Sb2DashboardComponent } from './sb2_admin/sb2-dashboard/sb2-dashboard.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +24,11 @@ import { ProfileComponent } from './profile/profile.component';
         LoginComponent,
         EventsComponent,
         SpecialEventsComponent,
-        ProfileComponent
+        ProfileComponent,
+        SidebarComponent,
+        Sb2TopbarComponent,
+        Sb2FooterComponent,
+        Sb2DashboardComponent
     ],
     imports: [
         BrowserModule,
