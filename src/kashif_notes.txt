@@ -1,0 +1,2 @@
+Ng Build Command To Deploy Angular App On Github Pages :
+    ng build --output-path docs --base-href
