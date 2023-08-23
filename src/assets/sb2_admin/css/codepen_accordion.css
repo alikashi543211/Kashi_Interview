@@ -4,6 +4,9 @@
     box-shadow: 0 0 1px rgba(0,0,0,0.1);
   }
 
+  .myaccordion .card {
+    margin-bottom: 10px;
+  }
   .myaccordion .card,
   .myaccordion .card:last-child .card-header {
     border: none;
