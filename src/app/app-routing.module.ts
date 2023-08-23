@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Sb2DashboardComponent } from './sb2_admin/sb2-dashboard/sb2-dashboard.component';
+import { GeneralInterviewComponent } from './sb2_admin/pages/general-interview/general-interview.component';
 
 const routes: Routes = [
     {
@@ -10,7 +11,21 @@ const routes: Routes = [
     },
     {
         path: 'sb2_dashboard',
-        component: Sb2DashboardComponent
+        children: [
+            {
+                path: '',
+                component: Sb2DashboardComponent
+            },
+            {
+                path: 'general_interview',
+                component: GeneralInterviewComponent
+            },
+        ]
+    },
+    {
+        path: '**',
+        redirectTo: '/sb2_dashboard',
+        pathMatch: 'full'
     }
 ];
 

@@ -16,6 +16,7 @@ import { Sb2TopbarComponent } from './sb2_admin/layouts/sb2-topbar/sb2-topbar.co
 import { Sb2FooterComponent } from './sb2_admin/layouts/sb2-footer/sb2-footer.component';
 import { Sb2DashboardComponent } from './sb2_admin/sb2-dashboard/sb2-dashboard.component';
 import { Sb2SidebarComponent } from './sb2_admin/layouts/sb2-sidebar/sb2-sidebar.component';
+import { GeneralInterviewComponent } from './sb2_admin/pages/general-interview/general-interview.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { Sb2SidebarComponent } from './sb2_admin/layouts/sb2-sidebar/sb2-sidebar
         Sb2TopbarComponent,
         Sb2FooterComponent,
         Sb2DashboardComponent,
-        Sb2SidebarComponent
+        Sb2SidebarComponent,
+        GeneralInterviewComponent
     ],
     imports: [
         BrowserModule,
