@@ -12,6 +12,14 @@
     border: none;
   }
 
+  .card-body{
+    background-color: black;
+  }
+
+  .myaccordion .card-body{
+    background-color: white;
+  }
+
   .myaccordion .card-header {
     border-bottom-color: #EDEFF0;
     background: transparent;
@@ -31,8 +39,12 @@
   .myaccordion .btn-link:hover,
   .myaccordion .btn-link:focus {
     text-decoration: none;
+    outline: none;
   }
 
   .myaccordion li + li {
     margin-top: 10px;
+  }
+  .myaccordion .btn-link:focus {
+    outline: none !important;
   }
