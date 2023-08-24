@@ -31,8 +31,12 @@
   .myaccordion .btn-link:hover,
   .myaccordion .btn-link:focus {
     text-decoration: none;
+    outline: none;
   }
 
   .myaccordion li + li {
     margin-top: 10px;
+  }
+  .myaccordion .btn-link:focus {
+    outline: none !important;
   }
