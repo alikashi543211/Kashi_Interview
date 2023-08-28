@@ -35,6 +35,7 @@ import { LiveLinksComponent } from './sb2_admin/pages/live-links/live-links.comp
 import { PortfolioComponent } from './sb2_admin/pages/portfolio/portfolio.component';
 import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.component';
 import { FinalInterviewComponent } from './sb2_admin/pages/final-interview/final-interview.component';
+import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-tech.component';
 
 const routes: Routes = [
     {
@@ -67,6 +68,10 @@ const routes: Routes = [
                     {
                         path: 'laravel',
                         component: LaravelComponent
+                    },
+                    {
+                        path: 'api_concepts',
+                        component: ApiTechComponent
                     },
                     {
                         path: 'php',

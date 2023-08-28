@@ -50,6 +50,7 @@ import { AwsTechComponent } from './sb2_admin/pages/technologies/aws-tech/aws-te
 import { LinkedListProblemComponent } from './sb2_admin/pages/problemSolving/linked-list-problem/linked-list-problem.component';
 import { MatrixProblemsComponent } from './sb2_admin/pages/problemSolving/matrix-problems/matrix-problems.component';
 import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.component';
+import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-tech.component';
 
 @NgModule({
     declarations: [
@@ -96,7 +97,8 @@ import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.compone
         AwsTechComponent,
         LinkedListProblemComponent,
         MatrixProblemsComponent,
-        NotFoundComponent
+        NotFoundComponent,
+        ApiTechComponent
     ],
     imports: [
         BrowserModule,
