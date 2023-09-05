@@ -51,6 +51,7 @@ import { LinkedListProblemComponent } from './sb2_admin/pages/problemSolving/lin
 import { MatrixProblemsComponent } from './sb2_admin/pages/problemSolving/matrix-problems/matrix-problems.component';
 import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.component';
 import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-tech.component';
+import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.component';
 
 @NgModule({
     declarations: [
@@ -98,7 +99,8 @@ import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-te
         LinkedListProblemComponent,
         MatrixProblemsComponent,
         NotFoundComponent,
-        ApiTechComponent
+        ApiTechComponent,
+        LifeStyleComponent
     ],
     imports: [
         BrowserModule,
