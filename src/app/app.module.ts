@@ -52,6 +52,9 @@ import { MatrixProblemsComponent } from './sb2_admin/pages/problemSolving/matrix
 import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.component';
 import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-tech.component';
 import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.component';
+import { CodignitorTechComponent } from './sb2_admin/pages/technologies/codignitor-tech/codignitor-tech.component';
+import { BitSolComponent } from './sb2_admin/pages/companies/bit-sol/bit-sol.component';
+import { JobHelpComponent } from './sb2_admin/pages/job-help/job-help.component';
 
 @NgModule({
     declarations: [
@@ -100,7 +103,10 @@ import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.comp
         MatrixProblemsComponent,
         NotFoundComponent,
         ApiTechComponent,
-        LifeStyleComponent
+        LifeStyleComponent,
+        CodignitorTechComponent,
+        BitSolComponent,
+        JobHelpComponent
     ],
     imports: [
         BrowserModule,

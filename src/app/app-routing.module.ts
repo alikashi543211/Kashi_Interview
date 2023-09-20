@@ -1,3 +1,4 @@
+import { CodignitorTechComponent } from './sb2_admin/pages/technologies/codignitor-tech/codignitor-tech.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Sb2DashboardComponent } from './sb2_admin/sb2-dashboard/sb2-dashboard.component';
@@ -37,6 +38,8 @@ import { NotFoundComponent } from './sb2_admin/pages/not-found/not-found.compone
 import { FinalInterviewComponent } from './sb2_admin/pages/final-interview/final-interview.component';
 import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-tech.component';
 import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.component';
+import { BitSolComponent } from './sb2_admin/pages/companies/bit-sol/bit-sol.component';
+import { JobHelpComponent } from './sb2_admin/pages/job-help/job-help.component';
 
 const routes: Routes = [
     {
@@ -64,11 +67,19 @@ const routes: Routes = [
                 component: DataStructureComponent
             },
             {
+                path: 'job_help',
+                component: JobHelpComponent
+            },
+            {
                 path: 'technologies',
                 children: [
                     {
                         path: 'laravel',
                         component: LaravelComponent
+                    },
+                    {
+                        path: 'codignitor',
+                        component: CodignitorTechComponent
                     },
                     {
                         path: 'api_concepts',
@@ -129,6 +140,17 @@ const routes: Routes = [
 
                 ]
             },
+            {
+                path: 'companies',
+                children: [
+                    {
+                        path: 'bit_sol',
+                        component: BitSolComponent
+                    },
+
+                ]
+            },
+
             {
                 path: 'problem_solving',
                 children: [
