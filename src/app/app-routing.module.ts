@@ -40,6 +40,7 @@ import { ApiTechComponent } from './sb2_admin/pages/technologies/api-tech/api-te
 import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.component';
 import { BitSolComponent } from './sb2_admin/pages/companies/bit-sol/bit-sol.component';
 import { JobHelpComponent } from './sb2_admin/pages/job-help/job-help.component';
+import { MyProgressComponent } from './sb2_admin/pages/my-progress/my-progress.component';
 
 const routes: Routes = [
     {
@@ -216,6 +217,10 @@ const routes: Routes = [
             {
                 path: 'experience_interview',
                 component: ExperienceInterviewComponent
+            },
+            {
+                path: 'my_progress',
+                component: MyProgressComponent
             },
             {
                 path: 'live_links',

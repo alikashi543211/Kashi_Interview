@@ -55,6 +55,7 @@ import { LifeStyleComponent } from './sb2_admin/pages/life-style/life-style.comp
 import { CodignitorTechComponent } from './sb2_admin/pages/technologies/codignitor-tech/codignitor-tech.component';
 import { BitSolComponent } from './sb2_admin/pages/companies/bit-sol/bit-sol.component';
 import { JobHelpComponent } from './sb2_admin/pages/job-help/job-help.component';
+import { MyProgressComponent } from './sb2_admin/pages/my-progress/my-progress.component';
 
 @NgModule({
     declarations: [
@@ -106,7 +107,8 @@ import { JobHelpComponent } from './sb2_admin/pages/job-help/job-help.component'
         LifeStyleComponent,
         CodignitorTechComponent,
         BitSolComponent,
-        JobHelpComponent
+        JobHelpComponent,
+        MyProgressComponent
     ],
     imports: [
         BrowserModule,
